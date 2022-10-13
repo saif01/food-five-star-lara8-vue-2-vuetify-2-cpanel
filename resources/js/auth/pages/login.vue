@@ -171,6 +171,7 @@ export default {
         })
         .catch(error => {
           // location.reload();
+
           this.loading = false;
           console.log(error);
         });
