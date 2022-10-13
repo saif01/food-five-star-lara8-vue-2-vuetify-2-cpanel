@@ -1,0 +1,106 @@
+******************
+*      Operator      *
+******************
+Dashboard
+    1. All Product List
+    2. Add to Cart
+    3. Modify Order
+    4. Give User Details
+    5. Place Order
+Modify Order
+    1. Search Order
+    2. Select Product to Modify
+    3. Modify Order
+    4. Update Order
+Stock
+    1. All Order
+        1.1 View Previous Order and Status
+        1.2 Select Order to Modify
+        1.3 All Product List
+        1.2 Modify Order
+    2. New Order
+        1.1 All Product List
+        1.2 Select Product
+        1.3 Give Quantity
+        1.4 Place Order for new stock
+
+
+******************
+*      Owner      *
+******************
+    Dashboard
+    1. Total Shop
+
+    2. Report
+        1. Daily Report
+        2. Monthly Report
+
+
+******************
+*      Admin     *
+******************
+    Dashboard
+    User Section
+        1. User
+            1.1 All  List
+            1.2 Add 
+            1.3 Edit 
+            1.4 Inactive/Active 
+            1.5 Map Role
+        
+        2. All Roles
+            2.1 All List
+            2.2 Add 
+            2.3 Edit 
+           
+
+        3. All Shop Owners
+            3.1 All List
+            3.2 Add 
+            3.3 Edit 
+            3.4 Inactive/Active 
+            3.5 Map outlets
+
+        4. All Shop Operators
+            4.1 All List
+            4.2 Add 
+            4.3 Edit 
+            4.4 Inactive/Active 
+
+    Zone Section
+        1. All Zones
+            1.1 All Zone List
+            1.2 Add Zone
+            1.3 Edit Zone
+            1.4 Delete Zone
+    Food Section
+        1. Type
+            1.1 All Food Type List
+            1.2 Add Food Type
+            1.3 Edit Food Type
+            1.4 Delete Food Type
+        2. All Food
+            2.1 All Food List
+            2.2 Add New Item
+            2.3 Edit Item
+            2.4 Delete
+    Outlet Section
+        1. All Outlet
+            1.1 Outlet List
+            1.2 Add New Outlet
+            1.3 Active/Inactive Outlet
+            1.4 Edit Outlet
+            1.5 Delete Outlet
+        2. Food Order
+            2.1 All Outlet
+            2.2 Place Order
+                2.2.1 All Food Item
+                2.2.2 Give Quantity
+                2.2.3 Add to List
+                2.2.4 Place Order
+            2.3 Modify Order
+                2.3.1 All Food Item
+                2.2.2 Update or Delete Qunatity/Product
+                2.2.3 Place Order
+    Report Section
+        1. Report
