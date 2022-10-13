@@ -30,6 +30,7 @@ Route::namespace('App\Http\Controllers')->group(function(){
 
     // test schedule message 
     Route::get('/message', 'Food\Message\IndexController@SentOwnerDailyMessage');
+    Route::get('/message_line', 'Food\Message\LineSmsSendController@test');
 
   
 

@@ -25,6 +25,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
+        
         // SentOwnerDailyMessage
         // $schedule->command('SentOwnerDailyMessage')->dailyAt('23:00');
 
@@ -42,6 +43,11 @@ class Kernel extends ConsoleKernel
         //     \Log::info($msg); 
         //     //ScheduleCheck::ErrorMsgOnLine($msg);
         // });
+
+        // scheduleTester
+        $schedule->command('scheduleTester')
+        ->everyMinute();
+        // ->dailyAt('23:00');
 
         
         // SentOwnerDailyMessage
