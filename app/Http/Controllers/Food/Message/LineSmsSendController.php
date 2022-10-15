@@ -10,8 +10,9 @@ class LineSmsSendController extends Controller
     //
     public static function test(){
 
-        $msg = "Cpanel Schedule Running (test-5star.cpbangladesh.com)";
+        $msg = "Cpanel Schedule Running (uat-fo.cpbfivestar.com)";
         
+
         self::lineMsg($msg);
         return true;
     }

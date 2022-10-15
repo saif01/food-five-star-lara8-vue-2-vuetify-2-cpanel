@@ -46,8 +46,8 @@ class Kernel extends ConsoleKernel
 
         // scheduleTester
         $schedule->command('scheduleTester')
-        ->everyMinute();
-        // ->dailyAt('08:00');
+        // ->everyMinute();
+        ->dailyAt('08:00');
 
         
         // SentOwnerDailyMessage
