@@ -67,6 +67,7 @@ class IndexController extends Controller
             } ,'foods.type'=>function($q){
                 $q->select('id','name_en', 'name_bn');
             }])
+        ->whereNull('free_item')
         ->selectRaw('*, sum(quantity) as sum')
         ->groupBy('product_id')
         ->orderBy('sum', 'desc')
