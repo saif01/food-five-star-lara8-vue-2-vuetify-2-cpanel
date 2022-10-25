@@ -132,5 +132,16 @@ class IndexController extends Controller
 
     }
 
+    public function sms_check(){
+
+        $number = '01707080401';
+        $message = 'This is test sms';
+
+        $response = self::sendSms($number,$message);
+
+        return $response;
+
+    }
+
 
 }

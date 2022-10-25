@@ -31,6 +31,7 @@ Route::namespace('App\Http\Controllers')->group(function(){
     });
 
     // test schedule message 
+    Route::get('/sms_check', 'Food\Message\IndexController@sms_check');
     Route::get('/message', 'Food\Message\IndexController@SentOwnerDailyMessage');
     Route::get('/message_line', 'Food\Message\LineSmsSendController@test');
     Route::get('/oracle_db', 'Food\Message\OracleDbController@test');
