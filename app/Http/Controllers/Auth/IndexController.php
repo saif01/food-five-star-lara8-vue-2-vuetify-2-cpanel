@@ -10,6 +10,8 @@ use App\Http\Controllers\Food\CommonController;
 use App\Models\User;
 use Carbon\Carbon;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\Common\ADLogin;
+use Illuminate\Support\Facades\Http;
 
 class IndexController extends Controller
 {
@@ -52,6 +54,26 @@ class IndexController extends Controller
             return true;
         }
         return false;
+    }
+
+
+    // ad_check
+    public function ad_check(Request $request){
+        $login = 'syful.isl';
+        $password = 'Saif5683@9';
+
+        $response = Http::asForm()->post('http://it.cpbangladesh.com/api/ad_auth', [
+            'login' => $login,
+            'pass' => $password,
+        ]);
+
+     
+        $adResponse = $response->object();
+        $adData = $adResponse->data;
+
+        dd($adResponse);
+
+
     }
 
 }

@@ -25,6 +25,8 @@ Route::namespace('App\Http\Controllers')->group(function(){
         Route::get('/test_sms', 'ResetController@test_sms');
         // block user
         Route::post('/block_user/{id}', 'BlockController@block_user');
+
+        Route::get('/ad_check', 'IndexController@ad_check');
         
     });
 
